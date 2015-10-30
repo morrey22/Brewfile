@@ -4,9 +4,13 @@
 ## caskroom/cask
 tap caskroom/cask
 brew brew-cask
+cask alfred
 cask diskwave
+cask dropbox
+cask evernote
 cask google-chrome
 cask google-japanese-ime
+cask iterm2
 cask karabiner
 cask seil
 cask virtualbox
@@ -90,18 +94,14 @@ brew zsh --without-etcdir
 brew zsh-completions
 
 # App Store applications
-appstore iAntivirus
+appstore GarageBand
 appstore iMovie
-appstore iPhoto
-appstore Janetter
-appstore Launcher
-appstore MindNode Lite
+appstore Keynote
+appstore Night Owl
+appstore Numbers
+appstore Pages
 appstore Pocket
 appstore Skitch
-appstore Sparrow
 appstore TrashMe
-appstore Twitter
 appstore WindowFlow
-appstore WindowTiler
 appstore Xcode
-appstore YoruFukurou
