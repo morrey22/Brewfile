@@ -1,9 +1,10 @@
 
 # tap repositories and their packages
 
-## caskroom/cask
+tap argon/mas
+brew mas
+
 tap caskroom/cask
-brew brew-cask
 cask alfred
 cask diskwave
 cask dropbox
@@ -16,18 +17,14 @@ cask seil
 cask virtualbox
 cask xquartz
 
-## caskroom/versions
 tap caskroom/versions
 
-## homebrew/dupes
 tap homebrew/dupes
 brew apple-gcc42
 brew groff
 
-## homebrew/versions
 tap homebrew/versions
 
-## rcmdnk/file
 tap rcmdnk/file
 brew brew-file
 
@@ -42,6 +39,7 @@ brew coreutils
 brew curl
 brew czmq
 brew docker
+brew docker-machine
 brew fontconfig
 brew fontforge
 brew freetype
@@ -92,16 +90,3 @@ brew xz
 brew zeromq
 brew zsh --without-etcdir
 brew zsh-completions
-
-# App Store applications
-appstore GarageBand
-appstore iMovie
-appstore Keynote
-appstore Night Owl
-appstore Numbers
-appstore Pages
-appstore Pocket
-appstore Skitch
-appstore TrashMe
-appstore WindowFlow
-appstore Xcode
