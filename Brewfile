@@ -23,7 +23,6 @@ tap homebrew/dupes
 brew apple-gcc42
 brew groff
 
-tap homebrew/versions
 
 tap rcmdnk/file
 brew brew-file
